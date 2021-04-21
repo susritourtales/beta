@@ -1,5 +1,5 @@
 <?php //`git pull`; ?>
-?php
+<?php
   
 // Use ls command to shell_exec
 // function
