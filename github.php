@@ -1,7 +1,7 @@
 <?php //`git pull`; ?>
 <?php
- 
-$output = exec('git pull');
+
+$output = exec('cd /var/www/html/public/beta && git pull');
   
 echo "<pre>$output</pre>";
 
