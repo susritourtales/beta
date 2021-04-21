@@ -1,6 +1,6 @@
 <?php //`git pull`; ?>
 <?php
-
+echo exec('whoami'); 
 $output = shell_exec('cd /var/www/html/public/beta && /usr/bin/git pull 2>&1');
   
 echo "<pre>$output</pre>";
