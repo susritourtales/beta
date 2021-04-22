@@ -1,7 +1,7 @@
 <?php //`git pull`; ?>
 <?php
 echo exec('whoami'); 
-$output = shell_exec('sudo git pull git@github.com:susritourtales/beta.git');
+$output = shell_exec('sudo git pull https://github.com/susritourtales/beta.git');
   
 echo "<pre>$output</pre>";
 
